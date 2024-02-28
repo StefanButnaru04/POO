@@ -1,0 +1,44 @@
+// problema 2
+
+#include <stdio.h>
+#include <string.h>
+
+void SortareSir(char a[][100], int n)
+{
+    for(int i=1;i<n;i++)
+        for(int j=i+1;j<=n;j++)
+            if(strlen(a[i])<strlen(a[j]))
+            {
+                char aux[101];
+                strcpy(aux,a[i]);
+                strcpy(a[i],a[j]);
+                strcpy(a[j],aux);
+            }
+            else if(strlen(a[i]) == strlen(a[j]))
+                if(strcmp(a[i],a[j])>0)
+                {
+                    char aux[101];
+                    strcpy(aux,a[i]);
+                    strcpy(a[i],a[j]);
+                    strcpy(a[j],aux);
+                }
+}
+
+int main()
+{
+    char text[100];
+    //char text[100]="I went to the library yesterday";
+    scanf("%[^\n]", text);
+    char a[100][100];
+    int n=0;
+    char *p=strtok(text," ");
+    while(p)
+    {
+        strcpy(a[++n],p);
+        p=strtok(NULL," ");
+    }
+    SortareSir(a,n);
+    for(int i=1;i<=n;i++)
+        printf("%s\n",a[i]);
+    return 0;
+}
