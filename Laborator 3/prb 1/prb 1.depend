@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1710425574 source:c:\users\iulian\desktop\facultrate stefan\proiect ip\prb 1\math.cpp
+	<iostream>
+	"Math.h"
+
+1710428083 c:\users\iulian\desktop\facultrate stefan\proiect ip\prb 1\math.h
+
+1710425896 source:c:\users\iulian\desktop\facultrate stefan\proiect ip\prb 1\main.cpp
+	<iostream>
+	"Math.cpp"
+
+1710427205 c:\users\iulian\desktop\facultrate stefan\proiect ip\prb 1\math.cpp
+	<iostream>
+	"Math.h"
+
+1710425896 source:c:\users\iulian\desktop\facultrate stefan\poo\laborator 3\prb 1\main.cpp
+	<iostream>
+	"Math.cpp"
+
+1710494351 c:\users\iulian\desktop\facultrate stefan\poo\laborator 3\prb 1\math.cpp
+	<iostream>
+	"Math.h"
+
+1710494338 c:\users\iulian\desktop\facultrate stefan\poo\laborator 3\prb 1\math.h
+
+1710427205 source:c:\users\iulian\desktop\facultrate stefan\poo\laborator 3\prb 1\math.cpp
+	<iostream>
+	"Math.h"
+
